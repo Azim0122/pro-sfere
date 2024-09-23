@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('./GT/GTWalsheimPro-Black.woff') format('woff2'),
+        url('./GT/GTWalsheimPro-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+        
+}
 nav .container{
     display: flex;
     justify-content: space-between;
@@ -23,6 +31,7 @@ nav .container .buttons{
     display: flex;
     align-items: center;
     gap: .7em;
+    font-family: 'GT Walsheim Pro' monospace !important;
 }
 .btns{
     display: flex;
@@ -38,13 +47,14 @@ nav .container .buttons .btn1{
     cursor: pointer;
     transition: 0.3s;
     border: none;
-    font-family: 'GT Walsheim Pro Regular';
+    font-family: 'GT Walsheim Pro' monospace !important;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 1px;
 }
 nav .container .buttons .btn1 span{
     font-weight: 500;
+    font-family: 'GT Walsheim Pro';
 }
 nav .container .buttons .btn1:hover{
     background-color: rgba(40, 161, 153, 0.767);
@@ -58,8 +68,7 @@ nav .container .buttons .btn2{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
-    padding: 1em 1rem;        
+    padding: .7rem .7rem;        
     border-radius: 50%;
     color: white;
     font-weight: 500;
@@ -67,6 +76,7 @@ nav .container .buttons .btn2{
     transition: 0.3s;
     border: none;
     background-color: rgba(95, 224, 216, 1);
+
 }
 nav .container .buttons .btn2 i{
     font-size: 1.2rem;

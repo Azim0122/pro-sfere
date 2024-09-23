@@ -2,6 +2,8 @@
     font-family: 'GT Walsheim Pro';
     src: url('./GT/GTWalsheimPro-Black.woff') format('woff2'),
         url('./GT/GTWalsheimPro-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
         
 }
 @font-face {
@@ -18,13 +20,14 @@
 @font-face {
     font-family: 'GT Walsheim Pro Medium';
     src: url('GTWalsheimPro-Medium.eot');
-    src: local('GT Walsheim Pro Medium'), local('GTWalsheimPro-Medium'),
-        url('GTWalsheimPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('GTWalsheimPro-Medium.woff2') format('woff2'),
-        url('GTWalsheimPro-Medium.woff') format('woff'),
-        url('GTWalsheimPro-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+    src: local('GT Walsheim Pro Ultra Bold Oblique'), local('GTWalsheimPro-UltraBoldOblique'),
+    url('GTWalsheimPro-UltraBoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('GTWalsheimPro-UltraBoldOblique.woff2') format('woff2'),
+    url('GTWalsheimPro-UltraBoldOblique.woff') format('woff'),
+    url('GTWalsheimPro-UltraBoldOblique.ttf') format('truetype');
+font-weight: 800;
+font-style: italic;
+
 }
 
 main section .container{
@@ -35,8 +38,8 @@ main section .container{
     background-color: #ffffff;
     border: none;
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
+    padding: 10px  16px;
+    text-align: center;                     
     text-decoration: none;
     display: flex;
     align-items:center;
@@ -48,11 +51,11 @@ main section .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 15px;
   }
 
   .ai a.active {
-    background-color: #3eac9d;
+    background-color: #5FE0D8;
     transform: translateY(2px); /* Имитирует нажатие кнопки */
     color: white;
     opacity: 1;
@@ -67,9 +70,9 @@ main section .container>h1{
     justify-content: center;
     gap: .3rem;
     color: #5FE0D8;
-    font-family: 'GT Walsheim Pro Regular';
+    font-family: 'GT Walsheim Pro' monospace !important;
     font-size: 64px;
-    font-weight: 900;   
+    font-weight: 300 !important;   
 
 }
 
@@ -78,12 +81,13 @@ main section .container .logo2{
    display: flex;
    align-items: center;
    margin-bottom: 55px;
-   font-family: 'GT Walsheim Pro Medium';
-   font-weight: 500;
-   font-size: 36px;
+   font-family: 'GT Walsheim Pro' monospace !important;
+   font-weight: 300;
+   font-size: 32px;
    justify-content: center;
-   opacity: .5;
-  
+   opacity: .4;
+
+
 }
 .ai{
     display: flex;
@@ -91,11 +95,13 @@ main section .container .logo2{
     justify-content: center;
     background: #FEFEFE;
     gap: 5px;
-    width: 310px;
+    width: 289.5px;
     height: 100%;
     margin: 0 auto;
     padding: 5px 0px 10px 0px;
     border-radius: 50px;
+    margin-top: -70px !important;
+    margin-bottom: 130px;
 }
 
  /* search2 */
@@ -212,7 +218,7 @@ main section .container .search-input2 .button-srch{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 51px;
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
@@ -225,6 +231,12 @@ main section .container .search-input2 .button-srch{
 main section .container .search-input2 .button-srch i{
     font-size: 20px;
     transform: scale(1.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     color: white;
 }
 main section .container .search-input2 .button-srch:hover{
@@ -409,7 +421,7 @@ main section .container4 .links ul li a.active{
 hr{
     opacity: .8;
     margin-bottom: 20px;
-    border: 1px solid #94EAE5
+    border-bottom: 1px solid #0505051A;
 }
 
 

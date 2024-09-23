@@ -43,11 +43,11 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-transform: uppercase;
     transition: all .5s ease;
 }
- .boxs .box .box-top i{
+ .boxs .box .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -55,13 +55,13 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(255, 134, 134, 1);
+    color: #B10700;
     cursor: pointer;
 }   
  .boxs .box .box-bottom{
-    color: rgba(255, 134, 134, 1);
+    color: #B10700;
     position: absolute;
-    top: 73%;
+    top: 85%;
     left: 30%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -72,12 +72,12 @@
 }
  .boxs .box .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(255, 134, 134, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #B10700;
+    font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 
 /* 2 */
@@ -105,10 +105,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(2) .box-top i{
+ .boxs .box:nth-child(2) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -116,17 +116,28 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(21, 101, 192, 1);
+    color: #141414;
     cursor: pointer;
 }   
+.boxs .box:nth-child(2) .box-bottom {
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+}
  .boxs .box:nth-child(2) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(21, 101, 192, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #141414;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 
 /* 3 */
@@ -154,10 +165,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(3) .box-top i{
+ .boxs .box:nth-child(3) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -165,14 +176,14 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(255, 0, 0, 1);
+    color: #FFB72D;
     cursor: pointer;
 }   
  .boxs .box:nth-child(3) .box-bottom{
-    color: rgba(255, 0, 0, 1);
+    color: #FFB72D;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 85%;
+    left: 28%;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -182,12 +193,12 @@
 }
  .boxs .box:nth-child(3) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(255, 0, 0, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #FFB72D;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 
 /* 4 */
@@ -215,10 +226,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(4) .box-top i{
+ .boxs .box:nth-child(4) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -226,14 +237,18 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(0, 158, 253, 1);
+   background: linear-gradient(84.28deg, #FE7E9F 0%, #B831BF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     cursor: pointer;
 }   
  .boxs .box:nth-child(4) .box-bottom{
-    color: rgba(0, 158, 253, 1);
+   background: linear-gradient(84.28deg, #FE7E9F 0%, #B831BF 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 85%;
+    left: 40%;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -243,12 +258,14 @@
 }
  .boxs .box:nth-child(4) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(0, 158, 253, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+   background: linear-gradient(84.28deg, #FE7E9F 0%, #B831BF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 
 /* 5 */
@@ -276,10 +293,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(5) .box-top i{
+ .boxs .box:nth-child(5) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -287,19 +304,19 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(171, 242, 238, 1);
+    color: #000000;
     opacity: .8;
     cursor: pointer;
 }   
 
  .boxs .box:nth-child(5) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(171, 242, 238, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #000000;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 /* 6 */
  .boxs .box:nth-child(6){
@@ -326,10 +343,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(6) .box-top i{
+ .boxs .box:nth-child(6) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -337,14 +354,14 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(103, 115, 229, 1);
+    color: #FF4D4D;
     cursor: pointer;
 }   
  .boxs .box:nth-child(6) .box-bottom{
-    color: rgba(103, 115, 229, 1);
+    color: #FF4D4D;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 85%;
+    left: 27%;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -354,12 +371,12 @@
 }
  .boxs .box:nth-child(6) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(103, 115, 229, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #FF4D4D;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 /* 7 */
  .boxs .box:nth-child(7){
@@ -386,10 +403,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(7) .box-top i{
+ .boxs .box:nth-child(7) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -397,14 +414,14 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(155, 55, 149, 1);
+    color: #5FE0D8;
     cursor: pointer;
 }   
  .boxs .box:nth-child(7) .box-bottom{
-    color: rgba(155, 55, 149, 1);
+    color: #5FE0D8;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 85%;
+    left: 26.5%;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -414,12 +431,12 @@
 }
  .boxs .box:nth-child(7) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(155, 55, 149, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #5FE0D8;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 /* 8 */
  .boxs .box:nth-child(8){
@@ -445,10 +462,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(8) .box-top i{
+ .boxs .box:nth-child(8) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -456,14 +473,14 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(95, 224, 216, 1);
+    color: #009EFD;
     cursor: pointer;
 }   
  .boxs .box:nth-child(8) .box-bottom{
-    color: rgba(95, 224, 216, 1);
+    color: #009EFD;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 85%;
+    left: 20%;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -472,12 +489,12 @@
 }
  .boxs .box:nth-child(8) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(95, 224, 216, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #009EFD;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 /* 9 */
  .boxs .box:nth-child(9){
@@ -504,10 +521,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(9) .box-top i{
+ .boxs .box:nth-child(9) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -515,14 +532,14 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(0, 0, 0, 1);
+    color: #6773E5;
     cursor: pointer;
 }   
  .boxs .box:nth-child(9) .box-bottom{
-    color: rgba(0, 0, 0, 1);
+    color: #6773E5;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 85%;
+    left: 20%;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -532,12 +549,12 @@
 }
  .boxs .box:nth-child(9) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(0, 0, 0, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #6773E5;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 /* 10 */
  .boxs .box:nth-child(10){
@@ -564,10 +581,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(10) .box-top i{
+ .boxs .box:nth-child(10) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -575,13 +592,13 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(177, 7, 0, 1);
+    color: #FF8686;
     cursor: pointer;
 }   
  .boxs .box:nth-child(10) .box-bottom{
-    color: rgba(177, 7, 0, 1);
+    color: #FF8686;
     position: absolute;
-    top: 73%;
+    top: 85%;
     left: 30%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -592,12 +609,12 @@
 }
  .boxs .box:nth-child(10) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: rgba(177, 7, 0, 1);
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #FF8686;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
 /* 11 */
 .boxs .box:nth-child(11){
@@ -624,10 +641,10 @@
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
-    font-family: GT Walsheim Pro;
+  font-family: "GT Walsheim Pro" monospace !important;
     transition: all .5s ease;
 }
- .boxs .box:nth-child(11) .box-top i{
+ .boxs .box:nth-child(11) .box-top a{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -635,14 +652,17 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: #FFB72D;
-    cursor: pointer;
+    color: #1565C0;
+    cursor: pointer !important  ;
 }   
+.boxs .box:nth-child(11) .box-top a i{
+    cursor: pointer !important  ;
+}
  .boxs .box:nth-child(11) .box-bottom{
-    color: #FFB72D;
-    position: absolute;
-    top: 73%;
-    left: 30%;
+    color: #1565C0;
+    position: relative;
+    top: 78%;
+    left: 32% !important;
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
@@ -652,257 +672,13 @@
 }
  .boxs .box:nth-child(11) .box-bottom p{
     font-weight: 700;
-    font-size: 32px;
-    color: #FFB72D;
-    font-family: GT Walsheim Pro;
+    font-size: 26px;
+    color: #1565C0;
+  font-family: "GT Walsheim Pro" monospace !important;
     text-align: left;
     transition: .5s ease-in-out;
-
+    text-transform: uppercase;
 }
-/* 12 */
-.boxs .box:nth-child(12){
-    width: 23%;
-    height: 170px;
-    border-radius: 20px;
-    padding: 1rem;
-    background:  rgba(254, 254, 254, 1);
-    position: relative;
-    overflow: hidden;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(12) .box-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: .5rem;
-    position: relative;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(12) .box-top span{
-    font-weight: 300;
-    font-size: 18px;
-    color:  rgba(5, 5, 5, 1);
-    opacity: .6;
-    font-family: GT Walsheim Pro;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(12) .box-top i{
-    font-size: 25px;
-    padding: .5rem;
-    border-radius: 50%;
-    color: rgb(0, 0, 0);
-    transform: rotate(45deg) ;
-    position: absolute;
-    right: 0;
-    color: #B10700;
-    cursor: pointer;
-}   
- .boxs .box:nth-child(12) .box-bottom{
-    color: #B10700;
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(12) .box-bottom p{
-    font-weight: 700;
-    font-size: 32px;
-    color: #B10700;
-    font-family: GT Walsheim Pro;
-    text-align: left;
-    transition: .5s ease-in-out;
-}
-/* 13 */
-.boxs .box:nth-child(13){
-    width: 23%;
-    height: 170px;
-    border-radius: 20px;
-    padding: 1rem;
-    background:  rgba(254, 254, 254, 1);
-    position: relative;
-    overflow: hidden;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(13) .box-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: .5rem;
-    position: relative;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(13) .box-top span{
-    font-weight: 300;
-    font-size: 18px;
-    color:  rgba(5, 5, 5, 1);
-    opacity: .6;
-    font-family: GT Walsheim Pro;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(13) .box-top i{
-    font-size: 25px;
-    padding: .5rem;
-    border-radius: 50%;
-    color: rgb(0, 0, 0);
-    transform: rotate(45deg) ;
-    position: absolute;
-    right: 0;
-    background: linear-gradient(84.28deg, #FE7E9F 0%, #B831BF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: pointer;
-}   
- .boxs .box:nth-child(13) .box-bottom{
-    background: linear-gradient(84.28deg, #FE7E9F 0%, #B831BF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(13) .box-bottom p{
-    font-weight: 700;
-    font-size: 32px;
-    background: linear-gradient(84.28deg, #FE7E9F 0%, #B831BF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: GT Walsheim Pro;
-    text-align: left;
-    transition: .5s ease-in-out;
-}
-/* 14 */
-.boxs .box:nth-child(14){
-    width: 23%;
-    height: 170px;
-    border-radius: 20px;
-    padding: 1rem;
-    background:  rgba(254, 254, 254, 1);
-    position: relative;
-    overflow: hidden;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(14) .box-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: .5rem;
-    position: relative;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(14) .box-top span{
-    font-weight: 300;
-    font-size: 18px;
-    color:  rgba(5, 5, 5, 1);
-    opacity: .6;
-    font-family: GT Walsheim Pro;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(14) .box-top i{
-    font-size: 25px;
-    padding: .5rem;
-    border-radius: 50%;
-    color: rgb(0, 0, 0);
-    transform: rotate(45deg) ;
-    position: absolute;
-    right: 0;
-   color: #23B100;
-    cursor: pointer;
-}   
- .boxs .box:nth-child(14) .box-bottom{
-    color: #23B100;
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(14) .box-bottom p{
-    font-weight: 700;
-    font-size: 32px;
-    color: #23B100;
-    font-family: GT Walsheim Pro;
-    text-align: left;
-    transition: .5s ease-in-out;
-}
-/* 15 */
-.boxs .box:nth-child(15){
-    width: 23%;
-    height: 170px;
-    border-radius: 20px;
-    padding: 1rem;
-    background:  rgba(254, 254, 254, 1);
-    position: relative;
-    overflow: hidden;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(15) .box-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: .5rem;
-    position: relative;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(15) .box-top span{
-    font-weight: 300;
-    font-size: 18px;
-    color:  rgba(5, 5, 5, 1);
-    opacity: .6;
-    font-family: GT Walsheim Pro;
-    transition: all .5s ease;
-}
- .boxs .box:nth-child(15) .box-top i{
-    font-size: 25px;
-    padding: .5rem;
-    border-radius: 50%;
-    color: rgb(0, 0, 0);
-    transform: rotate(45deg) ;
-    position: absolute;
-    right: 0;
-   color: #000000;
-    cursor: pointer;
-}   
- .boxs .box:nth-child(15) .box-bottom{
-    color: #000000;
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease;
-
-}
- .boxs .box:nth-child(15) .box-bottom p{
-    font-weight: 700;
-    font-size: 32px;
-    color: #000000;
-    font-family: GT Walsheim Pro;
-    text-align: left;
-    transition: .5s ease-in-out;
-}
-
-
 .boxs3{
     display: flex;
     align-items: center;
@@ -933,7 +709,7 @@
 }
 
  .container4 .search-buttons3 button {
-    background-color: #EDFCFB;
+    background-color: #ffffff;
     padding: 0.7rem 1.5rem;
     border-radius: 1.5rem;
     color: rgb(0, 0, 0);
@@ -981,48 +757,127 @@
      .boxs .box:nth-child(1){
         width: 46%;
         font-size: 25px;
+        p{
+            font-size: 24px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(1) .box-bottom{
+        top: 84% !important;
+        left: 32% !important;
     }
      .boxs .box:nth-child(2){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(2) .box-bottom{
+        top: 84% !important;
+        left: 47% !important;
     }
      .boxs .box:nth-child(3){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
     }
+    .boxs .box:nth-child(3) .box-bottom{
+        top: 84% !important;
+        left: 30% !important;
+    }
+    
      .boxs .box:nth-child(4){    
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(4) .box-bottom{
+        top: 84% !important;
+        left: 43% !important;
     }
      .boxs .box:nth-child(5){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(5) .box-bottom{
+        top: 84% !important;
+        left: 33% !important;
     }
      .boxs .box:nth-child(6){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(6) .box-bottom{
+        top: 84% !important;
+        left: 28% !important;
     }
      .boxs .box:nth-child(7){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(7) .box-bottom{
+        top: 84% !important;
+        left: 28% !important;
     }
      .boxs .box:nth-child(8){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(8) .box-bottom{
+        top: 84% !important;
+        left: 22% !important;
     }
      .boxs .box:nth-child(9){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(9) .box-bottom{
+        top: 84% !important;
+        left: 22% !important;
     }
      .boxs .box:nth-child(10){
         width: 46%;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+    }
+    .boxs .box:nth-child(10) .box-bottom{
+        top: 84% !important;
+        left: 32% !important;
     }
     .boxs .box:nth-child(11){
         width: 46%;
+        margin-bottom: 30px;
+        p{
+            font-size: 23px !important;
+            font-family: "GT Walsheim Pro" !important;
+        }
+        
     }
-    .boxs .box:nth-child(12){
-        width: 46%;
-    }
-    .boxs .box:nth-child(13){
-        width: 46%;
-    }
-    .boxs .box:nth-child(14){
-        width: 46%;
-    }
-    .boxs .box:nth-child(15){
-        width: 46%;
+    .boxs .box:nth-child(11) .box-bottom{
+        top: 80% !important;
+        left: 34% !important;
     }
      .boxs .box:nth-child(1) .box-bottom{
         top: 73%;
